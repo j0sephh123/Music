@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.error__validation {
+  color: red;
+}
+
+.music__wrapper {
+  max-width: 640px;
+}
+
+.music__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+  padding: 8px;
+  padding-right: 72px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.music__item--loveIcon,
+.music__item--arrow {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+
+.music__item--loveIcon {
+  right: 8px;
+}
+
+.music__item--loveIcon:hover {
+  fill: gainsboro;
+}
+
+.music__item--arrow {
+  right: 40px;
+}
+.music__item--arrow:hover {
+  color: fuchsia;
+}
+.music__item--upvotes {
+  padding-left: 40px;
+  font-weight: 600;
+}
+
+.music__item--arrowUp {
+}
+.music__item--arrowDown {
+  right: 94px;
+}
